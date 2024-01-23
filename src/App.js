@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from '/Users/marcusmiller/Desktop/Mentor/qr-code/src/image/image-qr-code.png';
 import './App.css';
 
 function App() {
@@ -6,17 +6,13 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        
+        <h1>
+         Imrove your front-end skills by building projects
+        </h1>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );
