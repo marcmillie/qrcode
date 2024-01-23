@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={logo} className="logo" alt="logo" />
         
         <h1>
          Imrove your front-end skills by building projects
